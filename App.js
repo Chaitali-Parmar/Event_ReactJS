@@ -86,6 +86,7 @@ class App extends React.Component{
     console.warn(event.type);
     console.warn(event.target.name);
     console.warn(event.target.value);
+    console.log('event Done');
     // event.preventDefualt();
   }
   render(){
